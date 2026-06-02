@@ -49,7 +49,7 @@ export default function AdminPanel({ isOpen, onClose }: { isOpen: boolean; onClo
       setErrorMsg("");
       loadLeads();
     } else {
-      setErrorMsg("رمز المرور خاطئ! جرب رمز '448892' للمراجعة");
+      setErrorMsg("رمز المرور خاطئ! جرب رمز '********************😎' للمراجعة");
     }
   };
 
@@ -239,7 +239,7 @@ export default function AdminPanel({ isOpen, onClose }: { isOpen: boolean; onClo
             </form>
 
             <div className="text-xs text-slate-500">
-              💡 رمز المرور للمطوّر والمراجعين هو: <span className="font-bold text-teal-400 font-mono">448892</span>
+              💡 رمز المرور للمطوّر والمراجعين هو: <span className="font-bold text-teal-400 font-mono">😎😎*************</span>
             </div>
           </div>
         ) : (
