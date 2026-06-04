@@ -156,7 +156,7 @@ export default function AdminPanel({ isOpen, onClose }: { isOpen: boolean; onClo
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.setAttribute("href", url);
-    link.setAttribute("download", `عملاء_قناة_السويس_أماني_محمد_${new Date().toLocaleDateString("ar-EG")}.csv`);
+    link.setAttribute("download", `عملاء_قناة_السويس_أماني_السيد_${new Date().toLocaleDateString("ar-EG")}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -213,7 +213,7 @@ export default function AdminPanel({ isOpen, onClose }: { isOpen: boolean; onClo
             
             <div>
               <h4 className="text-xl font-bold">تسجيل الدخول الآمن</h4>
-              <p className="text-sm text-slate-400 mt-2">متاح فقط للمستشارة أماني محمد لحماية سرية وخيارات بيانات العملاء</p>
+              <p className="text-sm text-slate-400 mt-2">متاح فقط للمستشارة أماني السيد لحماية سرية وخيارات بيانات العملاء</p>
             </div>
 
             {errorMsg && (
